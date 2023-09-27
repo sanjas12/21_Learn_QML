@@ -13,6 +13,7 @@ Rectangle {
         id: rec_green
         width: 150; height: 150;
         radius: 7
+        color:"green"
         border.color: "#0000FF"
         border.width: 5
         anchors.verticalCenter: parent.verticalCenter
