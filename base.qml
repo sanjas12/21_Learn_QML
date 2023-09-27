@@ -26,5 +26,12 @@ Rectangle {
             anchors.horizontalCenter: parent.horizontalCenter
             font.pointSize: 10; font.bold: true
         }
+
+        MouseArea {
+            anchors.fill: parent  // вся область родителя будет задействована.
+            onClicked: {
+                console.log("Hey")
+            }
+        }
     }
 }
