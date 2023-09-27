@@ -23,7 +23,7 @@ Rectangle {
             text: "Hello World"
             anchors.verticalCenter: parent.verticalCenter
             anchors.horizontalCenter: parent.horizontalCenter
-            font.pointSize: 10, font.bold: true
+            font.pointSize: 10; font.bold: true
         }
     }
 }
