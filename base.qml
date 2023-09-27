@@ -2,7 +2,7 @@ import QtQuick 2.0
 
 Rectangle {
     //задаем свойства нашему прямоугольнику
-    id:rec_main
+    id: rec_main
     width: 300; height: 300
     //цвет нашего прямоугольника
     color:"#fff"
@@ -10,7 +10,7 @@ Rectangle {
     radius: 7
 
     Rectangle {
-        id: rec_main
+        id: rec_green
         width: 150; height: 150;
         radius: 7
         border.color: "0000FF"
